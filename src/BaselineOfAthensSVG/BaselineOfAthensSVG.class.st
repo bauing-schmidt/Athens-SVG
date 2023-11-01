@@ -15,7 +15,7 @@ BaselineOfAthensSVG >> baseline: spec [
 		spec baseline: 'XMLParser' with: [
 			spec repository: 'github://bauing-schmidt/XML-XMLParser:production12/src' ].
 		spec baseline: 'SmaCC' with: [
-			spec repository: 'github://bauing-schmidt/SmaCC'; loads: 'Runtime' ].
+			spec repository: 'github://bauing-schmidt/SmaCC:production12'; loads: 'Runtime' ].
 
 		spec package: 'Athens-SVG-Support'.
 		spec package: 'Athens-SVG-Parsers'.
